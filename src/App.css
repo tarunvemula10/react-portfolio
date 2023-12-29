@@ -7,17 +7,38 @@
      scroll-behavior: smooth;
      box-sizing: border-box;
 }
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
      display: none;
 }
-a:hover {
+#home a:hover, #about a:hover {
      text-decoration: none;
      opacity: 1 !important;
      transition: 300ms;
 }
-header .navbar-nav a {
-     opacity: 0.75;
+#projects a {
+     text-decoration: underline;
 }
-header .navbar-nav a.active {
+.navbar a:hover {
+     text-decoration: none !important;
+}
+.navbar-toggler {
+     border: none !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+footer nav a {
+     opacity: 0.8;
+     font-size: 18px;
+}
+footer nav a:hover {
      opacity: 1;
+}
+footer small a {
+     opacity: 0.8;
+}
+footer small a:hover {
+     color: #fff;
+     text-decoration: underline;
+     opacity: 1;    
 }

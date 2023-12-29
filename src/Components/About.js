@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImage from '../Images/Webinar-pana.svg'
+import aboutImage from '../Images/Webinar-pana.svg';
+import pdf from './tharun_vemula_resume.pdf';
 
 export default function About() {
      return (
@@ -19,7 +20,7 @@ export default function About() {
                                    I'm very passionate about developing web applications. I'm a trained aspirant in technologies 
                                    such as <b className="text-primary">HTML, CSS, JavaScript, React, Java, J2EE </b> and <b className="text-primary">SQL</b>. Check out my resume to know more about me.
                               </p>
-                              <a href="/" className="btn btn-outline-primary border-2 w-25">Resume</a>
+                              <a href={pdf} target='_blank' rel='noreferrer' className="btn btn-outline-primary border-2 w-25">Resume</a>
                               <div className="pt-3"></div>
                          </div>
                     </div>
