@@ -17,9 +17,9 @@ export default function Home() {
                                    who turns ideas <br />into real life products.
                               </b>
                               <div className='pt-3'>
-                                   <a href="/" className="btn btn-primary w-25">Projects</a>
+                                   <a href="#projects" className="btn btn-primary w-25">Projects</a>
                                    <span className="px-2"></span>
-                                   <a href="/" className="btn btn-outline-primary border-2 w-25">About</a>
+                                   <a href="#about" className="btn btn-outline-primary border-2 w-25">About</a>
                               </div>
                          </div>
                     </div>
